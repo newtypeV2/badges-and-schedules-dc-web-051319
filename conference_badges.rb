@@ -18,5 +18,9 @@ def assign_rooms(array)
   roomAssign
 end
 
-def printer
-  puts
+def printer(list)
+  batch_badge_creator(list).each |x| do puts x
+end
+assign(list).each do |rm| puts rm
+end
+end
