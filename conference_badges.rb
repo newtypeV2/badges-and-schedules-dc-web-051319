@@ -11,4 +11,4 @@ batchBadge
 end
 
 def assign_rooms(array)
-  for x 
+  
