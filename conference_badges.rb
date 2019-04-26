@@ -11,4 +11,6 @@ batchBadge
 end
 
 def assign_rooms(array)
-  array.each_with_index
+  roomAssign = []
+  array.each_with_index do |n, room|
+    roomAssign.push("Hello,#{n}!")
